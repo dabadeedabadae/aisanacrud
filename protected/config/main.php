@@ -18,7 +18,7 @@ return array(
 		'db'=>require(dirname(__FILE__).'/database.php'),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'showScriptName'=>true,
+			'showScriptName'=>false,
 			'rules'=>array(
 				'aisana/newsView/<slug:[\w\-]+>'=>'aisana/newsView',
 				'aisana/projectView/<id:\d+>'=>'aisana/projectView',
