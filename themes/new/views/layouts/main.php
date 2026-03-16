@@ -84,15 +84,15 @@ if (!$currentLocale) {
 		</div>
 		
 		<nav class="links">
-			<a href="<?= Yii::app()->createUrl('aisana/index') ?>">
+			<a href="https://ku.edu.kz/aisana/indexNew">
 				<img src="<?= Yii::app()->baseUrl ?>/components/icons/home.svg" alt="Главная" class="icon">
 				<?= Yii::t('labels', 'Главная') ?>
 			</a>
-			<a href="<?= Yii::app()->createUrl('aisana/index') ?>#ai-agents-section">
+			<a href="https://ku.edu.kz/aisana/indexNew#ai-agents-section">
 				<img src="<?= Yii::app()->baseUrl ?>/components/icons/ai-agents.svg" alt="AI Агенты" class="icon">
 				<?= Yii::t('labels', 'AI Агенты') ?>
 			</a>
-			<a href="<?= Yii::app()->createUrl('aisana/index') ?>#about-program-section">
+			<a href="https://ku.edu.kz/aisana/indexNew#about-program-section">
 				<img src="<?= Yii::app()->baseUrl ?>/components/icons/question.svg" alt="О программе" class="icon">
 				<?= Yii::t('labels', 'О программе') ?>
 			</a>
@@ -108,7 +108,7 @@ if (!$currentLocale) {
 				<img src="<?= Yii::app()->baseUrl ?>/components/icons/projects.svg" alt="Другие проекты" class="icon">
 				<?= Yii::t('labels', 'Другие проекты') ?>
 			</a>
-			<a href="<?= Yii::app()->createUrl('aisana/index') ?>#contacts-section">
+			<a href="https://ku.edu.kz/aisana/indexNew#contacts-section">
 				<img src="<?= Yii::app()->baseUrl ?>/components/icons/contacts.svg" alt="Контакты" class="icon">
 				<?= Yii::t('labels', 'Контакты') ?>
 			</a>
