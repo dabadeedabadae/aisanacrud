@@ -2094,6 +2094,8 @@ class CMap extends CComponent implements IteratorAggregate,ArrayAccess,Countable
 		while(!empty($args))
 		{
 			$next=array_shift($args);
+			if(!is_array($next) && !($next instanceof Traversable))
+				continue;
 			foreach($next as $k => $v)
 			{
 				if(is_integer($k))
